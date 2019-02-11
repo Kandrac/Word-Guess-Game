@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/try.jpg");
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+ background-image:url("../images/block-heading1.png");
+  text-align: center;
+  margin-top: -1%;
+  margin-left: -4%;
+  margin-right:0%;
+  padding: 75px;
+  color: gold;
+}
+
+h2 {
+
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+
+img {
+  margin: 50px;
+}
+
+
+.sidebar {
+  padding: 5px;
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+span {
+  padding-left: 3px;
+  padding-right:3px;
+  font-size: 25px;
+}
+
+
+.container {
+  background-image:url("../images/center.jpg") ;
+  margin-top: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+  text-align: center;
+  border: solid 1px navy;
+}
+
+#game-title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+

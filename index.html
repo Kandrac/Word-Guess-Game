@@ -1,17 +1,69 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Video Game Hangman</title>
+    <head>
+    <meta charset="utf-8" />
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/javascript/Game.js"></script>
+    
+
+    <body>
+        <div class="heading">
+            <h1>VIDEO GAME</h1>
+        </div>
+
+        <div class="background">
+            <div class="container">
+                <h2> Any Key To Start </h2>
+                <h2>A new game title will apear after death or Victory</h2>
+                <div>
+                    <img id="image" src="" width="400" height="200">
+                </div>
+             
+                <div>
+                    <h3 id="game-title">_ _ _ _ _</h3>
+                </div>
+               
+                   
+                    <div class="sidebar">
+                        <h3>Lives Remaining:
+                            <span id="livesremaining"></span>
+                        </h3>
+                    </div>
+
+                   
+                    <div class="sidebar">
+                        <h3>Victories:
+                            <span id="winstoltal"></span>
+                        </h3>
+                    </div>
+                    
+                    <div class="sidebar">
+                        <h3>Fatalities:
+                            <span id="deathtoltal"></span>
+                        </h3>
+                    </div>
+
+                   
+                    <div class="sidebar">
+                        <h3> Wrong attempts:
+                            <span id="wronganswers"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
+
+        
 
 
-</head>
